@@ -8,7 +8,7 @@ public class App {
 	public static void main(String[] args) {
 		ApplicationContext con = new ClassPathXmlApplicationContext("com/techno/session2/spring.xml");
 		StudentDao studentDao = con.getBean("studentDao", StudentDao.class);
-
+ 
 		Student st = new Student();
 		st.setName("ganesh");
 		st.setCity("pune");
