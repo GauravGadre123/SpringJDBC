@@ -1,5 +1,5 @@
 package com.techno.session2;
-
+ 
 public class Student {
  
 	private int id;

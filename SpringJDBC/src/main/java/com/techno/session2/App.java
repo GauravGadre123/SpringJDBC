@@ -1,5 +1,5 @@
 package com.techno.session2;
-
+ 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
