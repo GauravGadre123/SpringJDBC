@@ -8,7 +8,7 @@ public class App {
 	public static void main(String[] args) {
 		ApplicationContext con = new ClassPathXmlApplicationContext("com/techno/session1/spring.xml");
 		JdbcTemplate bean = con.getBean("jdbcTemplate", JdbcTemplate.class);
-
+ 
 		// To insert data
 
 		// String query1 = "insert into student(name,city) values(?,?)";
